@@ -1,0 +1,174 @@
+body {
+    font-family: "Segoe UI", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero {
+    background: linear-gradient(135deg, #543783, #ad82d4);
+    color: rgb(252, 249, 249);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.cursor {
+    display: inline-block;
+    color: #007bff;
+    animation: blink 1s infinite;
+    font-weight: bold;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.portfolio-card {
+    transition: transform 0.3s;
+}
+
+.portfolio-card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #eaefef;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.btn-utama {
+  font-size: 20px;       
+  padding: 12px 24px;     
+  font-weight: bold;     
+  border-radius: 10px; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#about h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+
+#about p {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+/* Hero section styling */
+.hero {
+  padding-top: 6rem; /* Jaga jarak dari navbar */
+  padding-bottom: 4rem;
+}
+
+/* Ukuran teks di bagian hero */
+.hero h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Styling tombol "Lihat Portofolio" */
+.btn-utama {
+  font-size: 18px;
+  padding: 12px 28px;
+  font-weight: 600;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(99, 76, 76, 0.1);
+}
+
+/* Gambar di bagian hero */
+.hero img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px; /* opsional biar lebih lembut */
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .hero p,
+  .btn-utama {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .hero img {
+    margin-top: 2rem;
+  }
+}
+
+/* Styling bagian Hero */
+.hero {
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Tombol Lihat Portofolio */
+.btn-utama {
+  font-size: 1rem;
+  padding: 12px 28px;
+  font-weight: 600;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+/* Hover efek tombol */
+.btn-utama:hover {
+  transform: scale(1.05);
+  background-color: #5e5c5c;
+  color: white;
+}
+
+/* Responsif tampilan Hero di layar kecil */
+@media (max-width: 768px) {
+  .hero h1,
+  .hero p {
+    text-align: center;
+  }
+
+  .btn-utama {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .hero img {
+    margin-top: 2rem;
+  }
+}
+ 
+.hover-effect {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.hover-effect:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+
